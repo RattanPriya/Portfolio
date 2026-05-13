@@ -1,0 +1,3 @@
+FAILED tests/test_formatter.py::test_preserves_code_block
+AssertionError: expected fenced code block to remain unchanged
+Actual output removed indentation inside the block

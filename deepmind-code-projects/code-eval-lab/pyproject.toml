@@ -1,0 +1,8 @@
+[project]
+name = "code-eval-lab"
+version = "0.1.0"
+description = "Evaluation harness for AI-generated code candidates"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

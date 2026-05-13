@@ -1,0 +1,16 @@
+[
+  {
+    "task_id": "bugfix-list-dedup",
+    "tests_passed": 8,
+    "tests_total": 10,
+    "has_explanation": true,
+    "candidate_code": "def dedupe(items):\n    seen = set()\n    out = []\n    for item in items:\n        if item not in seen:\n            seen.add(item)\n            out.append(item)\n    return out\n"
+  },
+  {
+    "task_id": "refactor-unsafe-loader",
+    "tests_passed": 5,
+    "tests_total": 8,
+    "has_explanation": false,
+    "candidate_code": "def load_config(raw):\n    return eval(raw)\n"
+  }
+]

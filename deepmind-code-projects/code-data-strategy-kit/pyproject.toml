@@ -1,0 +1,8 @@
+[project]
+name = "code-data-strategy-kit"
+version = "0.1.0"
+description = "Use-case prioritization and data strategy kit for AI coding products"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
